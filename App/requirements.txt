@@ -1,0 +1,7 @@
+tensorflow==1.15.0
+PIL==8.1.0
+matplotlib==2.2.2
+numpy==1.19.5
+skimage==0.14.2
+pandas==0.23.0
+streamlit==0.75.0
