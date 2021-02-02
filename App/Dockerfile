@@ -3,5 +3,5 @@ COPY . /App
 EXPOSE 5000
 WORKDIR ./App
 RUN pip install --upgrade pip
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt --ignore-installed
 CMD python main.py
